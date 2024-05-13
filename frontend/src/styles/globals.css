@@ -4,5 +4,6 @@
 
 
 body{
+  height: max-content;
   background-color: #f3f4f6;
 }

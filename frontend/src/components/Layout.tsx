@@ -23,7 +23,7 @@ export default function Layout({ children }: { children: ReactNode }) {
                 <link rel="preconnect" href="https://fonts.gstatic.com" />
             </Head>
             <Header />
-            <main className="h-[100vh]">{children}</main>
+            <main >{children}</main>
 
         </>
     );
