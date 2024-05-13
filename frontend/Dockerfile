@@ -8,6 +8,8 @@ RUN npm i
 
 COPY src ./src
 COPY public ./public
+COPY tailwind.config.js ./tailwind.config.js
+COPY postcss.config.js ./postcss.config.js
 COPY tsconfig.json ./tsconfig.json
 COPY next-env.d.ts ./next-env.d.ts
 COPY *.config.js ./
